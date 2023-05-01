@@ -1,40 +1,26 @@
-import { Card, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
-import { Backgr } from "./components/Backgr";
 import { NavTop } from "./components/NavTop";
-// import { Card } from 'react-bootstrap';
+import { Backgr } from "./components/Backgr";
+import { ThreeBox } from "./components/ThreeBox";
+import { Personal } from "./components/Personal";
+import { Blog } from "./components/Blog";
+import { Sepical } from "./components/Sepical";
+import { Doctors } from "./components/Doctors";
+import { Footer } from "./components/Footer";
+
 
 function App() {
   return (
     <>
       <NavTop />
       <Backgr />
-      <Container fluid>
-        <Row
-        >
-          <Col className="bg-info">
-            <br />
-            <br />
-            <br />
-          </Col>
-          <Col className="bg-warning">
-            <br />
-            <br />
-            <br />
-          </Col>
-          <Col className="bg-success">
-            <br />
-            <br />
-            <br />
-          </Col>
-          <Col className="bg-danger">
-            <br />
-            <br />
-            <br />
-          </Col>
-        </Row>
-      </Container>
-      {/* <Card/> */}
+      <ThreeBox/>
+      <Personal/>
+      <Blog/>
+      <Sepical/>
+      <Doctors/>
+      <Footer/>
+      
     </>
   );
 }

@@ -5,3 +5,31 @@
 .hero-content{
   max-width: 700px;
 }
+.Mid{
+  background-image:  url(https://verdant-truffle-0bb2b2.netlify.app/static/media/bg-parallax.9f7f4d6619f57e19038b.jpg);
+  background-blend-mode: multiply;
+  background-color: #223a66;
+  height: 200px;
+  padding-top: 70px;
+   position: relative;
+  text-align: center;
+  color:black;
+}
+.doct{
+  background-image: url(https://verdant-truffle-0bb2b2.netlify.app/static/media/bg-parallax.9f7f4d6619f57e19038b.jpg);
+  background-blend-mode: multiply;
+  background-color: #223a66;
+  height: 200px;
+  padding-top: 80px;
+   position: relative;
+  text-align: center;
+  color:black;
+}
+.Doc{
+  padding-top: 100px;
+}
+.Foot{
+  background-color:#f2fafa;
+  margin-top: 150px;
+}
+

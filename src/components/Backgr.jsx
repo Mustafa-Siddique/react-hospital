@@ -1,10 +1,9 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
 
 export const Backgr = () => {
   return (
     <div className="bg d-flex flex-column justify-content-center">
-      <div className="hero-content ps-3">
+      <div className="hero-content ps-5">
         <h1 className="h1-responsive font-weight-bold">
           YOUR MOST TRUSTED HEALTH PARTNER
         </h1>
