@@ -13,7 +13,7 @@
   padding-top: 70px;
    position: relative;
   text-align: center;
-  color:black;
+  color:white;
 }
 .doct{
   background-image: url(https://verdant-truffle-0bb2b2.netlify.app/static/media/bg-parallax.9f7f4d6619f57e19038b.jpg);
@@ -23,7 +23,7 @@
   padding-top: 80px;
    position: relative;
   text-align: center;
-  color:black;
+  color:white;
 }
 .Doc{
   padding-top: 100px;
@@ -32,4 +32,10 @@
   background-color:#f2fafa;
   margin-top: 150px;
 }
-
+.how .card{
+height: 20rem;
+}
+.how .card:hover{
+  background-color: #223a66;
+  color: white;
+}
